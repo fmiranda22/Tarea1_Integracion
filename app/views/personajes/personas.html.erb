@@ -1,0 +1,17 @@
+<h1>Personas</h1>
+<body>
+  <table>
+      <thead>
+          <tr>
+            <th>Nombre</th>
+          </tr>
+      </thead>
+      <tbody>
+        <%@nombres.each do |peli|%>
+          <tr>
+              <td><%=peli[0]%></td>
+          </tr>
+          <% end %>
+      </tbody>
+  </table>
+</body>
